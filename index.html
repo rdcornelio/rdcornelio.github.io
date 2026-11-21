@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reynalyn Cornelio — BSIT Software & Web Developer</title>
+    <meta name="description" content="Portfolio of Reynalyn Cornelio, 3rd-year BSIT student and TESDA CSS NC II holder specializing in full-stack web development (HTML, CSS, JS, PHP, MySQL) and computer systems servicing.">
+
+    <!-- Open Graph / Social Share Preview Tags -->
+    <meta property="og:title" content="Reynalyn Cornelio — BSIT Software & Web Developer">
+    <meta property="og:description" content="404: Sleep Not Found. Explore full-stack web projects, TESDA credentials, and downloadable A4 resume.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="images/og-preview.png">
+    
+    <!-- Editorial & Creative Typography: Alice, Syne, Playfair Display, Plus Jakarta Sans & JetBrains Mono -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alice&family=JetBrains+Mono:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;1,600&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Syne:wght@700;800&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome 6 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- External Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Architectural Dot Matrix & Theme-Adaptive Ambient Orbs -->
+    <div class="ambient-canvas" aria-hidden="true">
+        <div class="dot-matrix"></div>
+        <div class="orb orb-primary"></div>
+        <div class="orb orb-secondary"></div>
+    </div>
+
+    <!-- =====================================================================
+         FLOATING GLASS NAVIGATION BAR (STICKY)
+    ====================================================================== -->
+    <header class="navbar" id="navbar">
+        <div class="container nav-container">
+            <!-- Stacked Alice Serif Brand Logo with Crown on R -->
+            <a href="#home" class="nav-logo" aria-label="Reynalyn Cornelio Home">
+                <span class="logo-emblem">
+                    <span class="logo-crowned-r">
+                        <i class="fas fa-crown logo-crown" aria-hidden="true"></i>R
+                    </span>C
+                </span>
+                <span class="logo-stacked">
+                    <span class="logo-first">REYNALYN</span>
+                    <span class="logo-last">CORNELIO</span>
+                </span>
+            </a>
+
+            <nav class="nav-menu" id="nav-menu" aria-label="Primary Navigation">
+                <ul class="nav-list">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#education" class="nav-link">Education</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#certificates" class="nav-link">Certificates</a></li>
+                    <li><a href="#seminars" class="nav-link">Seminars</a></li>
+                    <li><a href="#resume" class="nav-link">Resume</a></li>
+                    <li><a href="#contact" class="nav-link nav-cta">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="nav-controls">
+                <!-- 3-Mode Theme Switcher: PURPLE / YELLOW / WHITE -->
+                <button type="button" id="theme-toggle" class="workspace-switcher" aria-label="Switch Theme Color" title="Click to cycle Purple, Yellow, and White themes">
+                    <span class="ws-swatch"></span>
+                    <span class="ws-label" id="ws-label">PURPLE</span>
+                    <i class="fas fa-palette"></i>
+                </button>
+                <button type="button" class="nav-toggle icon-btn" id="nav-toggle" aria-label="Toggle Navigation Menu" aria-expanded="false">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Editorial Tagline Ribbon directly below Navigation Header (Scrolls Normally) -->
+    <div class="header-tagline-bar" aria-label="Personal Tagline">
+        <div class="container tagline-bar-inner">
+            <span class="tagline-ornament" aria-hidden="true">✦</span>
+            <p class="tagline-bar-text">404: Sleep Not Found</p>
+            <span class="tagline-ornament" aria-hidden="true">✦</span>
+        </div>
+    </div>
+
+    <main>
+        <!-- =====================================================================
+             A. HOME / HERO SECTION (ARRANGED NAME + CLICKABLE PORTRAIT)
+        ====================================================================== -->
+        <section id="home" class="hero-section">
+            <div class="container hero-layout">
+                <!-- Left Column: Architectural Name & Intro -->
+                <div class="hero-copy reveal">
+                    <div class="hero-eyebrow-row">
+                        <span class="availability-chip">
+                            <span class="pulse-dot"></span>
+                            <span>BSIT – 3RD YEAR STUDENT</span>
+                        </span>
+                        <span class="internship-tag">OPEN FOR INTERNSHIPS</span>
+                    </div>
+
+                    <div class="hero-name-lockup">
+                        <span class="hero-role-prefix">PORTFOLIO OF</span>
+                        <h1 class="hero-arranged-name">
+                            <span class="name-first">Reynalyn</span>
+                            <span class="name-last gradient-text">Cornelio</span>
+                        </h1>
+                        <div class="hero-name-rule" aria-hidden="true"></div>
+                    </div>
+
+                    <p class="hero-summary">
+                        Information Technology undergraduate crafting responsive full-stack web applications, structured MySQL databases, and TESDA-certified systems solutions with precision and creativity.
+                    </p>
+
+                    <div class="hero-cta-group">
+                        <a href="#projects" class="btn btn-primary">
+                            <span>Explore Projects</span>
+                            <i class="fas fa-arrow-up-right-from-square"></i>
+                        </a>
+                        <a href="#contact" class="btn btn-secondary">
+                            <i class="far fa-paper-plane"></i>
+                            <span>Get in Touch</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Right Column: Clean Clickable Portrait Trigger -->
+                <div class="hero-card-wrap reveal">
+                    <button type="button" id="open-dossier-trigger" class="portrait-trigger-card" aria-label="Open Personnel Dossier">
+                        <div class="portrait-frame" id="hero-portrait-stage">
+                            <!-- Populated dynamically by script.js -->
+                        </div>
+                        <div class="portrait-hover-pill">
+                            <i class="fas fa-expand-alt"></i>
+                            <span>Click to Open Dossier</span>
+                        </div>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- =====================================================================
+             CORE STACK SEAMLESS MARQUEE BREAKER (HOME -> ABOUT ME)
+        ====================================================================== -->
+        <div class="stack-marquee-breaker" aria-label="Core Technology Stack">
+            <div class="marquee-pinned-badge">
+                <span class="marquee-live-dot"></span>
+                <span>CORE STACK</span>
+            </div>
+
+            <div class="stack-marquee-viewport">
+                <div class="stack-marquee-track">
+                    <div class="stack-marquee-group">
+                        <span class="marquee-pill"><i class="fab fa-html5"></i> HTML5</span>
+                        <span class="marquee-sep" aria-hidden="true">✦</span>
+                        <span class="marquee-pill"><i class="fab fa-css3-alt"></i> CSS3</span>
+                        <span class="marquee-sep" aria-hidden="true">✦</span>
+                        <span class="marquee-pill"><i class="fab fa-js"></i> JavaScript</span>
+                        <span class="marquee-sep" aria-hidden="true">✦</span>
+                        <span class="marquee-pill"><i class="fab fa-php"></i> PHP</span>
+                        <span class="marquee-sep" aria-hidden="true">✦</span>
+                        <span class="marquee-pill"><i class="fas fa-database"></i> MySQL</span>
+                        <span class="marquee-sep" aria-hidden="true">✦</span>
+                        <span class="marquee-pill"><i class="fas fa-desktop"></i> Computer Systems Servicing</span>
+                        <span class="marquee-sep" aria-hidden="true">✦</span>
+                        <span class="marquee-pill"><i class="fas fa-shield-alt"></i> Cybersecurity Fundamentals</span>
+                        <span class="marquee-sep" aria-hidden="true">✦</span>
+                    </div>
+                    <div class="stack-marquee-group" aria-hidden="true">
+                        <span class="marquee-pill"><i class="fab fa-html5"></i> HTML5</span>
+                        <span class="marquee-sep">✦</span>
+                        <span class="marquee-pill"><i class="fab fa-css3-alt"></i> CSS3</span>
+                        <span class="marquee-sep">✦</span>
+                        <span class="marquee-pill"><i class="fab fa-js"></i> JavaScript</span>
+                        <span class="marquee-sep">✦</span>
+                        <span class="marquee-pill"><i class="fab fa-php"></i> PHP</span>
+                        <span class="marquee-sep">✦</span>
+                        <span class="marquee-pill"><i class="fas fa-database"></i> MySQL</span>
+                        <span class="marquee-sep">✦</span>
+                        <span class="marquee-pill"><i class="fas fa-desktop"></i> Computer Systems Servicing</span>
+                        <span class="marquee-sep">✦</span>
+                        <span class="marquee-pill"><i class="fas fa-shield-alt"></i> Cybersecurity Fundamentals</span>
+                        <span class="marquee-sep">✦</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- =====================================================================
+             B. ABOUT ME SECTION (BENTO ARCHITECTURE)
+        ====================================================================== -->
+        <section id="about" class="section">
+            <div class="container">
+                <div class="section-header reveal">
+                    <span class="section-kicker">01 • OVERVIEW</span>
+                    <h2 class="section-title">About Me</h2>
+                    <p class="section-desc">Bridging core IT infrastructure knowledge with practical web application development.</p>
+                </div>
+
+                <div class="about-bento">
+                    <div class="surface-card bento-main reveal">
+                        <div class="badge-mono">
+                            <i class="fas fa-terminal"></i> PROFILE & OBJECTIVE
+                        </div>
+                        <h3>Engineering Practical Web & Database Solutions</h3>
+                        <p>
+                            I am <strong>Reynalyn Cornelio</strong>, a 3rd-year Bachelor of Science in Information Technology (BSIT) student with a strong commitment to building structured, purposeful software and web applications.
+                        </p>
+                        <p>
+                            Through developing end-to-end academic systems—including event reservation and inventory management platforms, e-commerce storefronts, and online ordering workflows—I have gained hands-on experience translating real-world processes into clean front-end interfaces and reliable PHP & MySQL backends.
+                        </p>
+                    </div>
+
+                    <div class="bento-side">
+                        <div class="surface-card bento-mini reveal">
+                            <div class="mini-icon"><i class="fas fa-code"></i></div>
+                            <div class="mini-body">
+                                <div class="mini-header">
+                                    <h4>Full-Stack Web Development</h4>
+                                    <span class="mini-step">01</span>
+                                </div>
+                                <p>Responsive UI architecture paired with structured PHP & MySQL database logic.</p>
+                            </div>
+                        </div>
+
+                        <div class="surface-card bento-mini reveal">
+                            <div class="mini-icon"><i class="fas fa-microchip"></i></div>
+                            <div class="mini-body">
+                                <div class="mini-header">
+                                    <h4>Hardware & Systems Servicing</h4>
+                                    <span class="mini-step">02</span>
+                                </div>
+                                <p>TESDA NC II certified in diagnostics, network fundamentals, and system maintenance.</p>
+                            </div>
+                        </div>
+
+                        <div class="surface-card bento-mini reveal">
+                            <div class="mini-icon"><i class="fas fa-rocket"></i></div>
+                            <div class="mini-body">
+                                <div class="mini-header">
+                                    <h4>Continuous Technical Growth</h4>
+                                    <span class="mini-step">03</span>
+                                </div>
+                                <p>Dedicated to sharpening problem-solving, clean code habits, and team collaboration.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- =====================================================================
+             C. EDUCATIONAL BACKGROUND SECTION
+        ====================================================================== -->
+        <section id="education" class="section section-tinted">
+            <div class="container">
+                <div class="section-header reveal">
+                    <span class="section-kicker">02 • ACADEMICS</span>
+                    <h2 class="section-title">Educational Background</h2>
+                    <p class="section-desc">Academic milestones building my foundation in Information Technology.</p>
+                </div>
+
+                <div class="edu-timeline" id="portfolio-education-list">
+                    <!-- Populated dynamically from portfolioData in script.js -->
+                </div>
+            </div>
+        </section>
+
+        <!-- =====================================================================
+             D. PROJECTS SECTION
+        ====================================================================== -->
+        <section id="projects" class="section">
+            <div class="container">
+                <div class="section-header reveal">
+                    <span class="section-kicker">03 • FEATURED WORK</span>
+                    <h2 class="section-title">Projects</h2>
+                    <p class="section-desc">Academic and web-based systems engineered from database schema to user interface.</p>
+                </div>
+
+                <div class="projects-grid" id="portfolio-projects-list">
+                    <!-- Populated dynamically from portfolioData in script.js -->
+                </div>
+            </div>
+        </section>
+
+        <!-- =====================================================================
+             E. SKILLS SECTION
+        ====================================================================== -->
+        <section id="skills" class="section section-tinted">
+            <div class="container">
+                <div class="section-header reveal">
+                    <span class="section-kicker">04 • CAPABILITIES</span>
+                    <h2 class="section-title">Technical & Soft Skills</h2>
+                    <p class="section-desc">Core competencies across software development, systems servicing, and professional collaboration.</p>
+                </div>
+
+                <div class="skills-split">
+                    <div class="surface-card skills-panel reveal">
+                        <div class="panel-head">
+                            <div class="panel-icon"><i class="fas fa-laptop-code"></i></div>
+                            <div>
+                                <h3>Technical Skills</h3>
+                                <span>Categorized IT & Development Stack</span>
+                            </div>
+                        </div>
+                        <div class="tech-groups" id="portfolio-tech-skills-list">
+                            <!-- Populated dynamically from portfolioData in script.js -->
+                        </div>
+                    </div>
+
+                    <div class="surface-card skills-panel reveal">
+                        <div class="panel-head">
+                            <div class="panel-icon"><i class="fas fa-users-cog"></i></div>
+                            <div>
+                                <h3>Soft Skills</h3>
+                                <span>Workplace & Analytical Strengths</span>
+                            </div>
+                        </div>
+                        <div class="soft-list" id="portfolio-soft-skills-list">
+                            <!-- Populated dynamically from portfolioData in script.js -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- =====================================================================
+             F. CERTIFICATES SECTION
+        ====================================================================== -->
+        <section id="certificates" class="section">
+            <div class="container">
+                <div class="section-header reveal">
+                    <span class="section-kicker">05 • CREDENTIALS</span>
+                    <h2 class="section-title">Certificates</h2>
+                    <p class="section-desc">Industry-recognized certifications in systems servicing and cybersecurity.</p>
+                </div>
+
+                <div class="certs-grid" id="portfolio-certificates-list">
+                    <!-- Populated dynamically from portfolioData in script.js -->
+                </div>
+            </div>
+        </section>
+
+        <!-- =====================================================================
+             G. SEMINARS SECTION
+        ====================================================================== -->
+        <section id="seminars" class="section section-tinted">
+            <div class="container">
+                <div class="section-header reveal">
+                    <span class="section-kicker">06 • PROFESSIONAL LEARNING</span>
+                    <h2 class="section-title">Seminars Attended</h2>
+                    <p class="section-desc">Workshops and seminars expanding digital literacy and industry awareness.</p>
+                </div>
+
+                <div class="seminars-container reveal" id="portfolio-seminars-list">
+                    <!-- Populated dynamically from portfolioData in script.js -->
+                </div>
+            </div>
+        </section>
+
+        <!-- =====================================================================
+             8. RESUME SECTION – DYNAMIC WEBSITE-GENERATED PDF
+        ====================================================================== -->
+        <section id="resume" class="section">
+            <div class="container">
+                <div class="section-header reveal">
+                    <span class="section-kicker">07 • CURRICULUM VITAE</span>
+                    <h2 class="section-title">Resume</h2>
+                    <p class="section-desc">Dynamically generated A4 document with selectable text—ready to view, download, or print.</p>
+                </div>
+
+                <div class="surface-card resume-hub reveal">
+                    <div class="resume-doc-preview" aria-hidden="true">
+                        <div class="a4-mockup">
+                            <div class="a4-badge"><i class="fas fa-file-pdf"></i> A4 PDF</div>
+                            <div class="a4-top">
+                                <div class="a4-name">Reynalyn Cornelio</div>
+                                <div class="a4-title">BSIT – 3rd Year Student</div>
+                            </div>
+                            <div class="a4-block">
+                                <span class="a4-sec">Summary</span>
+                                <div class="a4-bar w-100"></div>
+                                <div class="a4-bar w-90"></div>
+                            </div>
+                            <div class="a4-block">
+                                <span class="a4-sec">Education</span>
+                                <div class="a4-bar w-85"></div>
+                                <div class="a4-bar w-70"></div>
+                            </div>
+                            <div class="a4-block">
+                                <span class="a4-sec">Core Skills</span>
+                                <div class="a4-chips">
+                                    <span>HTML</span><span>CSS</span><span>JS</span><span>PHP</span><span>MySQL</span>
+                                </div>
+                            </div>
+                            <div class="a4-block">
+                                <span class="a4-sec">Projects & Credentials</span>
+                                <div class="a4-bar w-95"></div>
+                                <div class="a4-bar w-80"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="resume-controls">
+                        <div class="badge-mono">
+                            <i class="fas fa-file-pdf"></i> LIVE DATA-DRIVEN DOCUMENT
+                        </div>
+                        <h3 class="resume-name">Reynalyn Cornelio</h3>
+                        <p class="resume-role">BSIT – 3rd Year Student</p>
+                        <p class="resume-caption">
+                            Explore my educational background, technical skills, projects, and qualifications.
+                        </p>
+
+                        <div class="resume-btn-row">
+                            <button type="button" id="btn-view-resume" class="btn btn-secondary">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>View Resume</span>
+                            </button>
+                            <button type="button" id="btn-download-resume" class="btn btn-primary">
+                                <i class="fas fa-download"></i>
+                                <span>Download Resume</span>
+                            </button>
+                            <button type="button" id="btn-print-resume" class="btn btn-ghost">
+                                <i class="fas fa-print"></i>
+                                <span>Print Resume</span>
+                            </button>
+                        </div>
+
+                        <div id="resume-status-note" class="status-banner" role="status" aria-live="polite">
+                            <i class="fas fa-info-circle"></i>
+                            <span>
+                                Generated directly from live portfolio data in A4 format with selectable vector text. Click <strong>Download Resume</strong> to save <strong>Reynalyn_Cornelio_Resume.pdf</strong> immediately.
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- =====================================================================
+             H. CONTACT SECTION
+        ====================================================================== -->
+        <section id="contact" class="section section-tinted">
+            <div class="container">
+                <div class="section-header reveal">
+                    <span class="section-kicker">08 • CONNECT</span>
+                    <h2 class="section-title">Contact Me</h2>
+                    <p class="section-desc">Reach out for internship opportunities, academic collaborations, or project inquiries.</p>
+                </div>
+
+                <div class="contact-layout">
+                    <div class="surface-card contact-panel reveal">
+                        <div class="badge-mono">
+                            <i class="fas fa-satellite-dish"></i> DIRECT CHANNELS
+                        </div>
+                        <h3>Let's Build Something Together</h3>
+                        <p class="contact-sub">
+                            I am open to internship roles, software development projects, and IT collaborations. Feel free to send a message anytime.
+                        </p>
+
+                        <div class="contact-list" id="portfolio-contact-details">
+                            <!-- Populated dynamically from portfolioData in script.js -->
+                        </div>
+                    </div>
+
+                    <div class="surface-card form-panel reveal">
+                        <h3>Send a Message</h3>
+                        <form id="contact-form" novalidate>
+                            <div class="form-row">
+                                <div class="field-group">
+                                    <label for="sender-name">Full Name <span class="req">*</span></label>
+                                    <input type="text" id="sender-name" name="name" placeholder="Juan Dela Cruz" required>
+                                    <small class="field-error" id="name-error"></small>
+                                </div>
+
+                                <div class="field-group">
+                                    <label for="sender-email">Email Address <span class="req">*</span></label>
+                                    <input type="email" id="sender-email" name="email" placeholder="juan@example.com" required>
+                                    <small class="field-error" id="email-error"></small>
+                                </div>
+                            </div>
+
+                            <div class="field-group">
+                                <label for="sender-subject">Subject <span class="req">*</span></label>
+                                <input type="text" id="sender-subject" name="subject" placeholder="Internship Opportunity / Project Inquiry" required>
+                                <small class="field-error" id="subject-error"></small>
+                            </div>
+
+                            <div class="field-group">
+                                <label for="sender-message">Message <span class="req">*</span></label>
+                                <textarea id="sender-message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+                                <small class="field-error" id="message-error"></small>
+                            </div>
+
+                            <button type="submit" id="contact-submit-btn" class="btn btn-primary btn-full">
+                                <i class="fas fa-paper-plane"></i>
+                                <span>Send Message</span>
+                            </button>
+
+                            <div id="form-feedback" class="form-feedback" role="alert" aria-live="polite"></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- =====================================================================
+         I. FOOTER SECTION
+    ====================================================================== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col-brand">
+                    <a href="#home" class="nav-logo">
+                        <span class="logo-emblem">
+                            <span class="logo-crowned-r">
+                                <i class="fas fa-crown logo-crown" aria-hidden="true"></i>R
+                            </span>C
+                        </span>
+                        <span class="logo-stacked">
+                            <span class="logo-first">REYNALYN</span>
+                            <span class="logo-last">CORNELIO</span>
+                        </span>
+                    </a>
+                    <p class="footer-tagline">404: Sleep Not Found</p>
+                </div>
+
+                <div class="footer-col-links">
+                    <h4>Navigation</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#education">Education</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#certificates">Certificates</a></li>
+                        <li><a href="#seminars">Seminars</a></li>
+                        <li><a href="#resume">Resume</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col-social">
+                    <h4>Socials</h4>
+                    <div class="social-row" id="footer-social-links">
+                        <!-- Populated dynamically from portfolioData.socials in script.js -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bar">
+                <p>© 2026 Reynalyn Cornelio. All Rights Reserved.</p>
+                <span class="footer-build">Crafted with HTML5 • CSS3 • Vanilla JS</span>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back-to-Top Button -->
+    <button id="back-to-top" class="back-to-top" aria-label="Scroll back to top" title="Back to Top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Interactive Case Study & Certificate Lightbox Modal -->
+    <div id="showcase-modal" class="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="showcase-modal-title" hidden>
+        <div class="showcase-modal-card">
+            <div class="dossier-header">
+                <div class="dossier-id">
+                    <i id="showcase-modal-icon" class="fas fa-folder-open"></i>
+                    <span id="showcase-modal-kicker">PROJECT CASE STUDY</span>
+                </div>
+                <button type="button" id="showcase-modal-close" class="dossier-close-btn" aria-label="Close Preview Modal">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+
+            <div class="showcase-modal-body">
+                <div class="showcase-media-box" id="showcase-media-stage">
+                    <!-- Populated dynamically by script.js -->
+                </div>
+
+                <div class="showcase-details">
+                    <h3 id="showcase-modal-title">Title</h3>
+                    <p class="showcase-meta" id="showcase-modal-meta"></p>
+                    <p class="showcase-desc" id="showcase-modal-desc"></p>
+
+                    <div id="showcase-highlights-wrap" class="showcase-highlights-wrap">
+                        <h4>Key Features & Implementation</h4>
+                        <ul id="showcase-highlights-list" class="showcase-highlights-list"></ul>
+                    </div>
+
+                    <div id="showcase-tags-list" class="project-tech"></div>
+
+                    <div id="showcase-actions" class="showcase-actions"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Interactive Personnel Dossier Modal (Triggered by Clicking Portrait) -->
+    <div id="dossier-modal" class="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="dossier-modal-title" hidden>
+        <div class="dossier-modal-card">
+            <div class="dossier-header">
+                <div class="dossier-id" id="dossier-modal-title">
+                    <i class="fas fa-id-badge"></i>
+                    <span>PERSONNEL DOSSIER • RC-2026</span>
+                </div>
+                <div class="dossier-header-actions">
+                    <span class="dossier-status">VERIFIED</span>
+                    <button type="button" id="dossier-modal-close" class="dossier-close-btn" aria-label="Close Personnel Dossier">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="dossier-body">
+                <!-- Left Half: Multi-Photo Carousel with '>' Next Button -->
+                <div class="dossier-photo-pane">
+                    <div class="dossier-photo-frame" id="dossier-photo-stage">
+                        <!-- Populated dynamically by script.js -->
+                    </div>
+
+                    <div class="dossier-photo-controls">
+                        <div class="dossier-dots" id="dossier-dots"></div>
+                        <button type="button" id="dossier-next-btn" class="dossier-next-btn" aria-label="Next Photo" title="Next Photo (or press Right Arrow)">
+                            <span>Next</span>
+                            <i class="fas fa-chevron-right"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Vertical Breaking Line -->
+                <div class="dossier-divider" role="separator" aria-orientation="vertical"></div>
+
+                <!-- Right Half: Full Personal Information & Motto -->
+                <div class="dossier-info-column">
+                    <div class="dossier-info-pane" id="dossier-info-list" aria-label="Personal Information">
+                        <!-- Populated dynamically by script.js -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- =====================================================================
+         DEDICATED PRINT-ONLY RESUME DOCUMENT (HIDDEN ON SCREEN, SHOWN ON PRINT)
+    ====================================================================== -->
+    <div id="dedicated-print-resume" class="print-resume-container" aria-hidden="true"></div>
+
+    <!-- jsPDF Library for Direct Selectable-Text PDF Download -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+
+    <!-- External Custom JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
